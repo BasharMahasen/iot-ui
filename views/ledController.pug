@@ -1,0 +1,25 @@
+extends layout
+block content
+	
+	br
+	.row(style='padding:5px;')
+		.col-xs-12
+			h1 IoT Basic Example 
+			h2 this example demostrates Internet Controls Things and How Things affect Internet !!!
+			h4 Current Status is #{state}		
+	.row(style='padding:5px;')
+		.col-xs-6.col-sm-3(style='padding:5px;')
+			a.btn.btn-danger.btn-lg(href='off', role='button') Off
+		.col-xs-6.col-sm-3(style='padding:5px;')
+			a.btn.btn-success.btn-lg(href='on', role='button')  On
+		.col-xs-6.col-sm-3(style='padding:5px;')
+			a.btn.btn-info.btn-lg(href='fadeout', role='button') Fade Out
+		.col-xs-6.col-sm-3(style='padding:5px;')
+			a.btn.btn-info.btn-lg(href='fadein', role='button') Fade In
+		.col-xs-6.col-sm-3(style='padding:5px;')
+			a.btn.btn-info.btn-lg(href='blink', role='button') Blink
+
+	.row
+		#list
+
+

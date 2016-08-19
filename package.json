@@ -1,0 +1,26 @@
+{
+  "name": "iot",
+  "version": "1.0.0",
+  "description": "iot -- express application part",
+  "main": "app_ui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot"
+  ],
+  "author": "Bashar Mahasen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "firebase": "^3.3.0",
+    "pug": "^2.0.0-beta5"
+  },
+  "devDependencies": {}
+  ,
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  }
+}
